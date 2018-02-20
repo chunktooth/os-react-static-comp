@@ -1,0 +1,36 @@
+.Banner {
+  display: flex;
+  width: 70%;
+  margin: 0 auto 80px auto;
+}
+
+.Banner h2 {
+  font-family: serif;
+  font-size: 45px;
+  font-weight: lighter;
+  text-align: left;
+  letter-spacing: 2px;
+}
+
+.Banner p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 150%;
+}
+
+.banner-left {
+  width: 50%;
+}
+
+.banner-right {
+  background-image: url('../public/edge-of-tomorrow.png');
+  background-size: cover;
+  width: 35%;
+  margin: 25px;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: flex-start;
+}
