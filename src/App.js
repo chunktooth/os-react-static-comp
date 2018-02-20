@@ -5,50 +5,86 @@ import Stories from './Stories';
 import Footer from './Footer';
 import './App.css';
 
-const stories = [
+const literature = [
   {
-    img: './story1.jpg',
-    title: 'Winning at Fonts',
-    desc: 'or, Why you should care about typography',
-    authImg: './louisa.png',
-    authName: 'Louisa',
-    estTime: '2 min'
+    img: '../public/graham-escape.png',
+    title: 'The Sleeper Awakes',
+    desc: 'For 203 years he slept, only to find his dreams manifested in all its horrors and malformities upon his awakening',
+    authImg: '../public/hg-wells.png',
+    authName: 'H. G. Wells',
+    yearReleased: '1910'
   },
   {
-    img: './story2.jpg',
-    title: 'Hoodlums: a dissertation',
-    desc: 'Examining villains in modern storytelling',
-    authImg: './alternate.png',
-    authName: 'Nathaniel',
-    estTime: '10 min'
+    img: '../public/animal-farm.png',
+    title: 'Animal Farm',
+    desc: '"All animals are equal but some are more equal than others." Revolution amidst farm  set in the Stalinist era of Soviet union where a cult of personality reigns the mass with terror',
+    authImg: '../public/george-orwell.png',
+    authName: 'George Orwell',
+    yearReleased: '1945'
   },
   {
-    img: './story3.jpg',
-    title: 'Halloween is a year-round sport',
-    desc: 'Those who say otherwise just aren\'t trying hard enough.',
-    authImg: './leta.png',
-    authName: 'Leta',
-    estTime: '8 min'
+    img: '../public/electric-sheep.png',
+    title: 'Do Androids Dream of Electric Sheep?',
+    desc: 'Mass emigrations to off-world colonies are taking place to preserve humans genetic integrity. A bounty hunter hired to kill escaped Androids must face what it is to be human',
+    authImg: '../public/philip-k-dick.png',
+    authName: 'Philip K. Dick',
+    yearReleased: '1968'
   },
   {
-    img: './story4.jpg',
-    title: 'How to Improve Learning and Classroom Engagement with Humor',
-    desc: 'Okay, so first of all, everybody knows fart jokes are hilarious ...',
-    authImg: './pamela.png',
-    authName: 'Pamela',
-    estTime: '11 min'
+    img: '../public/dispossessed.png',
+    title: 'The Dispossessed',
+    desc: 'Exploring an ambiguous Anarchist Utopian world through wars, peace, politics and Taoist philosophy. How humans come to govern and effect each other and to find the strength in weakness',
+    authName: 'Ursula K. LeGuin',
+    authImg: '../public/ursula-k-le-guin.png',
+    yearReleased: '1974'
+  }
+]
+
+const cinema = [
+	{
+    img: '../public/logans-run.png',
+    title: 'Logan\'s Run',
+    desc: 'Human civilization flourishes under a computer-regulated geodesic dome designed for pleasures. Freedom awaits at a dangerous world outside, would you run or stay?',
+    authName: 'Michael Anderson',
+    authImg: '../public/m-anderson.png',
+    yearReleased: '1976'
+  },
+   {
+    img: '../public/akira.png',
+    title: 'Akira',
+    desc: 'Neo-Tokyo is annihilated post WWIII, crumbling beneath rebellions and biker gangs. A boy discovers he suddenly gains terrifying telekinetic power as the miltary top-secret is unearthed, threatening every existence',
+    authName: 'Katsuhiro Otomo',
+    authImg: '../public/katsuhiro-otomo.png',
+    yearReleased: '1988'
+  },
+   {
+    img: '../public/total-recall.png',
+    title: 'Total Recall',
+    desc: 'A construction worker has recurring dreams of Mars and a mysterious woman, but remember one thing- everything can become reality when you visit Rekall, a company that provides memory implants of vacations',
+    authName: 'Paul Verhoeven',
+    authImg: '../public/paul-verhoeven.png',
+    yearReleased: '1990'
+  },
+   {
+    img: '../public/fury-road.png',
+    title: 'Mad Max: Fury Road',
+    desc: 'As civilization collapsed, water and gasoline became rare commodities. A tyrant and his crazed army took control of a desert wasteland forcing women to breed and men to become blood bags, but not everyone obeyed',
+    authName: 'George Miller',
+    authImg: '../public/george-miller.png',
+    yearReleased: '2015'
   }
 ]
 
 const App = () => {
   return (
     <div className='App'>
-      {/* add a Header component (already created) */}
-      {/* add a Banner component (already created) */}
-      <Stories  storiesTitle="Today's Top Stories"
-                stories={stories} />
-      {/* add another Stories component with storiesTitle 'Pop Culture', and just pass down the same stories array as the above Stories component (already created but will need some editing) */}
-      {/* add a Footer Component (you will need to create this component in the provided Footer.js file) */}
+      <Header />
+      <Banner />
+      <Stories  storiesTitle="In Literature"
+                stories={literature} />
+      <Stories 	storiesTitle="In Cinema"
+      					stories={cinema} />
+      <Footer />
     </div>
   );
 }

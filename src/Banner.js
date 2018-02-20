@@ -6,13 +6,13 @@ const Banner = () => {
   return (
     <div className='Banner'>
       <div className='banner-left'>
-        <h2>Interesting ideas that set your mind in motion</h2>
-        <p>Hear directly from the people who know it best. From tech to politics to creativity and more — whatever your interest, we’ve got you covered.</p>
+        <h2>Set your motion towards an untold future</h2>
+        <p>In many ways, dystopian societies can be seen as conservative ideas against modernization and are explored in various sub-genres of fiction to draw attention to real-world issues surrounding ethics, science and technologies - often characterized by dehumanization, totalitarian governments, environmental disasters, or other characteristics associated with a cataclysmic decline in society. </p>
         <div className='button-holder'>
           <Button buttonType='dark'
-                  buttonText='Get started' />
+                  buttonText="I'm outta here" />
           <Button buttonType='light'
-                  buttonText='Learn more' />
+                  buttonText='Take me there' />
         </div>
       </div>
       <div className='banner-right'></div>
