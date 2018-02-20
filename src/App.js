@@ -25,7 +25,7 @@ const literature = [
   {
     img: '../public/electric-sheep.png',
     title: 'Do Androids Dream of Electric Sheep?',
-    desc: 'Mass emigrations to off-world colonies are taking place to preserve humans genetic integrity. A bounty hunter hired to kill escaped Androids must face what it is to be human',
+    desc: 'Mass emigrations to off-world colonies are taking place to preserve humans genetics, as robots are made identical to their makers. A bounty hunter hired to kill escaped Androids must face what it is to be human',
     authImg: '../public/philip-k-dick.png',
     authName: 'Philip K. Dick',
     yearReleased: '1968'
@@ -60,7 +60,7 @@ const cinema = [
    {
     img: '../public/total-recall.png',
     title: 'Total Recall',
-    desc: 'A construction worker has recurring dreams of Mars and a mysterious woman, but remember one thing- everything can become reality when you visit Rekall, a company that provides memory implants of vacations',
+    desc: 'A construction worker has recurring dreams of Mars and a mysterious woman, but remember- every secret desire can become reality once you visit Rekall, a company that provides memory implants of vacations',
     authName: 'Paul Verhoeven',
     authImg: '../public/paul-verhoeven.png',
     yearReleased: '1990'

@@ -7,7 +7,7 @@ const Author = (props) => {
   		<img src={props.authImg} className='author-image' />
   		<div className='author-text'>
 	    	<h4>{props.authName}</h4>
-	    	<h4>{props.yearReleased}</h4>
+	    	<h4>From {props.yearReleased}</h4>
   		</div>
 		</div>
 	)

@@ -10,9 +10,9 @@ const Banner = () => {
         <p>In many ways, dystopian societies can be seen as conservative ideas against modernization and are explored in various sub-genres of fiction to draw attention to real-world issues surrounding ethics, science and technologies - often characterized by dehumanization, totalitarian governments, environmental disasters, or other characteristics associated with a cataclysmic decline in society. </p>
         <div className='button-holder'>
           <Button buttonType='dark'
-                  buttonText="I'm outta here" />
+                  buttonText="Take me there" />
           <Button buttonType='light'
-                  buttonText='Take me there' />
+                  buttonText="I'm outta here" />
         </div>
       </div>
       <div className='banner-right'></div>
