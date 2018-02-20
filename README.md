@@ -18,7 +18,6 @@ Once the server is running, you can visit:
 
 --------------------------------
 ### My Static Comp
-Getting acquainted with React, a boilerplate provided by Turing instructors. I edited the content to accommodate the topic of Dystopia in media
 ![my comp](https://github.com/chunktooth/os-react-static-comp/blob/master/os-react-static-comp.png)
 
 ### The Original Comp
